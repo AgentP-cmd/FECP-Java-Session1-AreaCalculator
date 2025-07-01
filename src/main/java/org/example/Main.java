@@ -17,7 +17,7 @@ public class Main {
                 System.out.print("Enter the radius: ");
                 double radius = sc.nextDouble();
                 double areaC = calculateCircleArea(radius);
-                System.out.printf("Area of the Circle: %.2f",areaC);
+                System.out.printf("Area of the circle: %.2f",areaC);
                 break;
             case 2:
                 System.out.print("Enter the base: ");
@@ -25,7 +25,7 @@ public class Main {
                 System.out.print("Enter the height: ");
                 double height = sc.nextDouble();
                 double areaT = calculateTriangleArea(base,height);
-                System.out.printf("Area of the Triangle: %.2f",areaT);
+                System.out.printf("Area of the triangle: %.2f",areaT);
                 break;
             case 3:
                 System.out.print("Enter the length: ");
@@ -33,7 +33,7 @@ public class Main {
                 System.out.print("Enter the width: ");
                 double width = sc.nextDouble();
                 double areaR = calculateRectangleArea(length, width);
-                System.out.printf("Area of the Rectangle: %.2f",areaR);
+                System.out.printf("Area of the rectangle: %.2f",areaR);
                 break;
             default:
                 System.out.println("Invalid number");
